@@ -1,0 +1,14 @@
+{
+  "name": "my-name-contract",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:all": "bash scripts/deploy-all.sh"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.0"
+  }
+}
